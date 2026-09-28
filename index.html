@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio Muhammad Haikal Nugroho - Mahasiswa Teknologi Informasi Universitas Bina Sarana Informatika.">
+<title>Muhammad Haikal Nugroho | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">MH<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Project</a>
+      <a href="#experience">Perjalanan</a>
+      <a href="cv.html" class="nav-cv">CV Saya</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <div class="badge"><span class="dot"></span> Mahasiswa Teknologi Informasi</div>
+      <h1>Halo, saya <span>Muhammad Haikal Nugroho.</span></h1>
+      <p>Mahasiswa Teknologi Informasi yang memiliki ketertarikan pada pengembangan website, teknologi digital, dan desain antarmuka yang sederhana namun tetap modern.</p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="#projects">Lihat Project →</a>
+        <a class="btn btn-outline" href="cv.html">Lihat CV</a>
+      </div>
+    </div>
+
+    <div class="profile-side reveal">
+      <div class="profile-card">
+        <div class="profile-inner">
+          <img src="images/haikal.jpg" alt="Muhammad Haikal Nugroho"
+               onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid';">
+          <div id="photoFallback" class="profile-placeholder" style="display:none;">
+            <div>
+              <strong>MHN</strong>
+              <small>Tambahkan foto kamu di <b>images/haikal.jpg</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-label reveal">About Me</div>
+    <h2 class="section-title reveal">Mengenal Saya Lebih Dekat</h2>
+    <p class="section-desc reveal">Perjalanan saya di dunia teknologi dimulai dari rasa penasaran terhadap bagaimana sebuah website dan aplikasi dapat dibangun.</p>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Halo! Saya <strong>Muhammad Haikal Nugroho</strong>, mahasiswa semester 7 jurusan <strong>Teknologi Informasi</strong> di <strong>Universitas Bina Sarana Informatika</strong>.</p>
+        <p>Saya memiliki ketertarikan terhadap dunia pemrograman, khususnya pengembangan website. Dalam proses belajar, saya terbiasa mengeksplorasi berbagai teknologi dan menggunakan AI sebagai salah satu alat bantu untuk memahami kode, mencari solusi, serta mempercepat proses pengembangan.</p>
+        <p>Saya percaya proses belajar teknologi bukan hanya tentang membuat kode berjalan, tetapi juga memahami bagaimana sebuah sistem dapat dibuat lebih rapi, mudah digunakan, dan memberikan solusi terhadap kebutuhan tertentu.</p>
+        <p>Di luar dunia perkuliahan, saya pernah menjalani PKL sebagai bagian engineering di sebuah apartemen, khususnya pada bidang kelistrikan. Saya juga aktif dalam kegiatan Karang Taruna.</p>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat"><strong>7</strong><span>Semester Perkuliahan</span></div>
+        <div class="stat"><strong>2023</strong><span>Angkatan</span></div>
+        <div class="stat"><strong>1+</strong><span>Project Website</span></div>
+        <div class="stat"><strong>∞</strong><span>Semangat Belajar</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-label reveal">Skills</div>
+    <h2 class="section-title reveal">Keahlian & Teknologi</h2>
+    <p class="section-desc reveal">Kemampuan yang sedang saya kembangkan selama perjalanan belajar di bidang Teknologi Informasi.</p>
+
+    <div class="skills">
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">HTML & CSS</span><span class="skill-percent">80%</span></div><div class="track"><span style="width:80%"></span></div></div>
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-percent">65%</span></div><div class="track"><span style="width:65%"></span></div></div>
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">PHP / Laravel</span><span class="skill-percent">70%</span></div><div class="track"><span style="width:70%"></span></div></div>
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">MySQL</span><span class="skill-percent">65%</span></div><div class="track"><span style="width:65%"></span></div></div>
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">Git & GitHub</span><span class="skill-percent">60%</span></div><div class="track"><span style="width:60%"></span></div></div>
+      <div class="skill reveal"><div class="skill-top"><span class="skill-name">AI-Assisted Development</span><span class="skill-percent">85%</span></div><div class="track"><span style="width:85%"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-label reveal">Portfolio</div>
+    <h2 class="section-title reveal">Project yang Pernah Saya Kerjakan</h2>
+    <p class="section-desc reveal">Beberapa project yang saya kerjakan sebagai bagian dari proses belajar dan pengembangan kemampuan.</p>
+
+    <div class="projects">
+      <article class="project reveal">
+        <div class="project-cover">🚚</div>
+        <div class="project-body">
+          <div class="project-type">Web Application</div>
+          <h3>Sistem Web Kurir</h3>
+          <p>Website yang dibuat untuk memenuhi tugas kuliah dengan konsep sistem informasi kurir dan pengelolaan data aktivitas pengiriman.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Laravel</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-cover">💻</div>
+        <div class="project-body">
+          <div class="project-type">Academic Project</div>
+          <h3>Website Informasi</h3>
+          <p>Project website sederhana sebagai latihan memahami struktur halaman, navigasi, layout, dan pengelolaan informasi berbasis web.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-cover">📊</div>
+        <div class="project-body">
+          <div class="project-type">Web Development</div>
+          <h3>Dashboard Data</h3>
+          <p>Konsep dashboard untuk menampilkan data secara lebih terstruktur dan mudah dipahami melalui antarmuka berbasis web.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">Laravel</span><span class="tag">MySQL</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-cover">🎨</div>
+        <div class="project-body">
+          <div class="project-type">UI Design</div>
+          <h3>Eksplorasi UI Website</h3>
+          <p>Eksplorasi desain antarmuka website dengan fokus pada tampilan modern, sederhana, responsif, dan mudah digunakan.</p>
+          <div class="tags"><span class="tag">UI Design</span><span class="tag">Responsive</span><span class="tag">Web Design</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="section-label reveal">Journey</div>
+    <h2 class="section-title reveal">Perjalanan Saya</h2>
+    <p class="section-desc reveal">Pengalaman pendidikan, PKL, dan kegiatan organisasi yang menjadi bagian dari perjalanan saya.</p>
+
+    <div class="timeline">
+      <div class="item reveal">
+        <div class="item-date">2023 — Sekarang</div>
+        <h3>S1 Teknologi Informasi</h3>
+        <div class="place">Universitas Bina Sarana Informatika</div>
+        <p>Mahasiswa aktif semester 7 jurusan Teknologi Informasi. Mempelajari pemrograman, database, pengembangan website, dan sistem informasi.</p>
+      </div>
+
+      <div class="item reveal">
+        <div class="item-date">Pengalaman PKL</div>
+        <h3>Engineering</h3>
+        <div class="place">Apartemen — Bagian Kelistrikan</div>
+        <p>Mendapatkan pengalaman praktik kerja di bagian engineering dengan fokus pada pekerjaan yang berkaitan dengan sistem kelistrikan dan operasional teknis gedung.</p>
+      </div>
+
+      <div class="item reveal">
+        <div class="item-date">Kegiatan Organisasi</div>
+        <h3>Karang Taruna</h3>
+        <div class="place">Organisasi Kemasyarakatan</div>
+        <p>Mengikuti kegiatan Karang Taruna dan terlibat dalam aktivitas sosial serta kegiatan bersama masyarakat.</p>
+      </div>
+
+      <div class="item reveal">
+        <div class="item-date">Project Perkuliahan</div>
+        <h3>Web Kurir</h3>
+        <div class="place">Project Tugas Kuliah</div>
+        <p>Mengembangkan website kurir sebagai bagian dari tugas perkuliahan untuk menerapkan konsep pemrograman dan pengembangan aplikasi berbasis web.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-label reveal">Get In Touch</div>
+    <h2 class="section-title reveal">Mari Terhubung</h2>
+    <p class="section-desc reveal">Terbuka untuk berdiskusi mengenai project, teknologi, atau pengalaman belajar di bidang Teknologi Informasi.</p>
+
+    <div class="contact-grid">
+      <div class="contact reveal">
+        <div class="label">Email</div>
+        <h3><a href="mailto:nugrohohaikal32@gmail.com">nugrohohaikal32@gmail.com</a></h3>
+        <p>Email untuk komunikasi dan kebutuhan profesional.</p>
+      </div>
+      <div class="contact reveal">
+        <div class="label">WhatsApp</div>
+        <h3><a href="https://wa.me/6282260383482" target="_blank">0822-6038-3482</a></h3>
+        <p>Jakarta Timur, Indonesia</p>
+      </div>
+    </div>
+
+    <div class="contact-actions reveal">
+      <a class="btn btn-primary" href="https://wa.me/6282260383482" target="_blank">Chat via WhatsApp →</a>
+      <a class="btn btn-outline" href="mailto:nugrohohaikal32@gmail.com">Kirim Email</a>
+      <a class="btn btn-outline" href="cv.html">Buka CV</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer">
+    <strong>Muhammad Haikal Nugroho</strong>
+    <span>© 2026 — Portfolio. Dibuat dengan HTML, CSS & JavaScript.</span>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
